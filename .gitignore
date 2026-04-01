@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local properties (contains SDK path, may have secrets)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (may contain API keys)
+google-services.json
+
+# OS
+.DS_Store
+Thumbs.db
