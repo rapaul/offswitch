@@ -1,6 +1,6 @@
 # Offswitch
 
-Minimalist Android app: plays white noise when opened, keeps playing in the background, stops when you quit the app (e.g. swipe away from recents). UI: black screen with "Zzzz" in the center.
+Minimalist Android app: plays white noise when opened, keeps playing in the background (even after swiping away from recents), stops when you tap "Stop" on the notification. UI: black screen with "Zzzz" in the center.
 
 ## Prerequisites
 
@@ -52,4 +52,4 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 - **Open app** → White noise starts; black screen with "Zzzz".
 - **Send to background** → Keeps playing (foreground notification).
 - **Swipe app from recents** → Keeps playing.
-- **Stop** action on the notification → Stops.
+- **Stop** action on the notification → Stops white noise and exits.
